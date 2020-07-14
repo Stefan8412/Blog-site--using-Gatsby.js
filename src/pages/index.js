@@ -1,22 +1,34 @@
 import React from "react"
 import { Link } from "gatsby"
+import Head from '../components/head'
 
-import Layout from "../components/layout"
-import Image from "../components/image"
+
+
+
 import SEO from "../components/seo"
+import Layout from "../components/layout"
 
-const IndexPage = () => (
-  <Layout>
+const IndexPage = () => {
+  return (
+    <Layout>
+  
     <SEO title="Home" />
-    <h1>Hi people</h1>
-    <p>Welcome to your new Gatsby site.</p>
-    <p>Now go build something great.</p>
-    <div style={{ maxWidth: `300px`, marginBottom: `1.45rem` }}>
-      <Image />
-    </div>
-    <Link to="/page-2/">Go to page 2</Link> <br />
-    <Link to="/using-typescript/">Go to "Using TypeScript"</Link>
-  </Layout>
+   <Head />
+    <p>Welcome to Unimus site.</p>
+    <li>Network Automation</li>
+    <li>Configuration Backup</li>
+    <li>Change Management</li>
+    <p>Unimus makes Network Automation and Configuration Management easy. We air to make
+      automation, disaster recovery, change management and configution auditing and affordable
+      for a new network of any size.</p>
+
+      <button> Get started using Unimus </button>
+    
+    
+
+    </Layout>
+
 )
+  }
 
 export default IndexPage
