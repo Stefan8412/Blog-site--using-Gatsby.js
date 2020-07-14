@@ -14,15 +14,9 @@ const IndexPage = () => {
   
     <SEO title="Home" />
    <Head />
-    <p>Welcome to Unimus site.</p>
-    <li>Network Automation</li>
-    <li>Configuration Backup</li>
-    <li>Change Management</li>
-    <p>Unimus makes Network Automation and Configuration Management easy. We air to make
-      automation, disaster recovery, change management and configution auditing and affordable
-      for a new network of any size.</p>
+    <h1> Home page</h1>
 
-      <button> Get started using Unimus </button>
+      <button> Read more  </button>
     
     
 
@@ -32,3 +26,4 @@ const IndexPage = () => {
   }
 
 export default IndexPage
+
