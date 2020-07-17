@@ -2,16 +2,16 @@ import React from "react"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
 
-const Download = () => {
+const Resources = () => {
   return (
   <Layout>
     
-    <SEO title="Download page" />
-    <h1> Download page</h1>
-    <p>Lorem ipsum </p>
-   
+    <SEO title="Features page" />
+    
+    
+  
   </Layout>
 )
   }
 
-export default Download
+export default Resources

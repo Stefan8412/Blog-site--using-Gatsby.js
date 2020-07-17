@@ -2,8 +2,6 @@ import React from "react"
 import {Link,graphql,useStaticQuery} from "gatsby"
 import blogStyles from './blog.module.scss'
 
-
-
 import Layout from "../components/layout"
 import SEO from "../components/seo"
 

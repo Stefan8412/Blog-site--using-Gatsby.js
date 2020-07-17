@@ -1,32 +1,44 @@
-.header{
-    padding: 1rem 0 3rem;
-    
+@import './layout.module';
 
+.header{
+    padding:1rem 0 3rem;
+
+  
+  
 }
 .title{
-    color:#ffffff;
-    font-size: 3rem;
-    text-decoration: none;
+    font-size: 22px;
+    font-weight: 400;
+    text-decoration: none !important;
+    margin-top: 30px;
+    color:  #B6BBBF;
+    :hover{
+       color: #CCCECF;
+    }
 }
-.nav-list{
-    display: flex;
-    list-style-type: none;
+.navItem {
+    text-decoration: none !important; 
+    color:  #B6BBBF;
     
-    margin:0;
-
+    
+}
+.navItem:hover{
+    color:#CCCECF;
 }
 
-.nav-item {
-    color:#999999;
-    font-size: 1rem;
-    margin-right: 1.3rem;
-    text-decoration: none;
-}
-.nav-item:hover{
-    color:red;
+  
+    
 
-}
-.active-nav-item{
-    color:red;
 
-}
+
+
+
+
+
+
+
+
+
+
+
+
