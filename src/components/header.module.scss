@@ -6,15 +6,17 @@
   
   
 }
+
 .title{
-    font-size: 22px;
-    font-weight: 400;
+    font-size: 26px;
+    font-weight: 500;
     text-decoration: none !important;
-    margin-top: 30px;
+    
     color:  #B6BBBF;
-    :hover{
-       color: #CCCECF;
-    }
+    
+}
+.title:hover{
+    color:#CCCECF; 
 }
 .navItem {
     text-decoration: none !important; 

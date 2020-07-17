@@ -31,19 +31,20 @@ const Header = () => {
    
     
     <Navbar collapseOnSelect expand="lg"  bg="dark" variant="dark">
+    <Nav.Link as="li">
       <Navbar.Brand><Link className={headerStyles.title} activeClassName={headerStyles.activeNavItem} to="/"> 
       {
     data.site.siteMetadata.title
       }
       <img
-        src="../images/logo.png"
+        src="src/images/logo.png"
         width="60"
         height="60"
         className="d-inline-block align-top"
         alt=""
       
       />
-      </Link></Navbar.Brand>
+      </Link></Navbar.Brand>  </Nav.Link>
       <Navbar.Toggle aria-controls="responsive-navbar-nav"/>
       <Navbar.Collapse id="responsive-navbar-nav">
     <Nav className="ml-auto">
