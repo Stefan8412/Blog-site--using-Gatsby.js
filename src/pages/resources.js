@@ -7,7 +7,7 @@ const Resources = () => {
   <Layout>
     
     <SEO title="Features page" />
-    
+    <h1> Resources page</h1>
     
   
   </Layout>
