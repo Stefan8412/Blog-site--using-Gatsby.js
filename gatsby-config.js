@@ -1,6 +1,6 @@
 module.exports = {
   siteMetadata: {
-    title: ``,
+    title: `Unimus`,
     description: `Kick off your next, great Gatsby project with this default starter. This barebones starter ships with the main Gatsby configuration files you might need.`,
     author: `S.Hancar`,
   },
@@ -45,7 +45,7 @@ module.exports = {
           {
             resolve:'gatsby-remark-images',
             options: {
-              maxWidth: 750,
+              maxWidth: 950,
              linkImagesToOriginal: false
             }
           }

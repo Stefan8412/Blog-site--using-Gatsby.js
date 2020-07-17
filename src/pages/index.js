@@ -8,12 +8,12 @@ import Layout from "../components/layout"
 const IndexPage = () => {
   return (
     <Layout>
-  
+     <Head title="Home"/>
     <SEO title="Home" />
-   <Head />
+
     <h1> Home page</h1>
 
-      <button> Read more  </button>
+      
     
     
 

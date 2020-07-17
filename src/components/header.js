@@ -33,19 +33,19 @@ const Header = () => {
     
     <Navbar collapseOnSelect expand="lg"  bg="dark" variant="dark" >
     <Nav.Link as="li">
-      <Navbar.Brand><Link className={headerStyles.title} activeClassName={headerStyles.activeNavItem} to="/"> 
-      {
-    data.site.siteMetadata.title
-      }
+      <Navbar.Brand>
+        <Link className={headerStyles.title} activeClassName={headerStyles.activeNavItem} to="/"> 
+     
       <img
         src={logo} 
         width="45"
         height="35"
         className="d-inline-block align-top"
         alt="Unimus"
-      
       />
-      </Link></Navbar.Brand>  </Nav.Link>
+      </Link>
+      </Navbar.Brand>  
+      </Nav.Link>
       <Navbar.Toggle aria-controls="responsive-navbar-nav"/>
       <Navbar.Collapse id="responsive-navbar-nav">
     <Nav className="ml-auto">
@@ -56,8 +56,10 @@ const Header = () => {
   <Nav.Item as="li">
     <NavDropdown title="About"  id="collasible-nav-dropdown">
     <Link className={headerStyles.navItem} activeClassName={headerStyles.activeNavItem} to="/"></Link>
-      <NavDropdown.Item href="#action/2.1">Pricing</NavDropdown.Item>
-        <NavDropdown.Item href="#action/2.2">Features</NavDropdown.Item>
+      <NavDropdown.Item>
+      <Link className={headerStyles.navItem} activeClassName={headerStyles.activeNavItem} to="/pricing">Pricing</Link>
+      </NavDropdown.Item>
+        <NavDropdown.Item ><Link className={headerStyles.navItem} activeClassName={headerStyles.activeNavItem} to="/features">Features</Link></NavDropdown.Item>
         </NavDropdown>
     </Nav.Item>
     
@@ -81,9 +83,7 @@ const Header = () => {
    
     </Navbar.Collapse>
     </Navbar>
-   
-   
-  </header>
+   </header>
 
   )
 }
