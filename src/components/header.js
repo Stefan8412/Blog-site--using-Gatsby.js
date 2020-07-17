@@ -30,7 +30,7 @@ const Header = () => {
   <header className={headerStyles.header} >
    
     
-    <Navbar collapseOnSelect expand="lg"   >
+    <Navbar collapseOnSelect expand="lg"  bg="dark" variant="dark" >
     <Nav.Link as="li">
       <Navbar.Brand><Link className={headerStyles.title} activeClassName={headerStyles.activeNavItem} to="/"> 
       {
