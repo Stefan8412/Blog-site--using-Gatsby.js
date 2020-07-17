@@ -7,6 +7,7 @@ import '@quasar/extras/ionicons-v4/ionicons-v4.css'
 
 import headerStyles from "./header.module.scss"
 import {Navbar,Form,FormControl,Button, Nav,NavDropdown} from 'react-bootstrap'
+import logo from "./logo.png"
 
 
 
@@ -37,11 +38,11 @@ const Header = () => {
     data.site.siteMetadata.title
       }
       <img
-        src="src/images/logo.png"
+        src={logo} 
         width="60"
         height="60"
         className="d-inline-block align-top"
-        alt=""
+        alt="Unimus"
       
       />
       </Link></Navbar.Brand>  </Nav.Link>
