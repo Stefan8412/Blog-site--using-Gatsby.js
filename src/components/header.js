@@ -39,8 +39,8 @@ const Header = () => {
       }
       <img
         src={logo} 
-        width="60"
-        height="60"
+        width="45"
+        height="35"
         className="d-inline-block align-top"
         alt="Unimus"
       
