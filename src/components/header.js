@@ -31,7 +31,7 @@ const Header = () => {
   <header className={headerStyles.header} >
    
     
-    <Navbar collapseOnSelect expand="lg"  bg="dark" variant="dark" >
+    <Navbar className={headerStyles.custom}  collapseOnSelect expand="lg"  variant="dark" >
     <Nav.Link as="li">
       <Navbar.Brand>
         <Link className={headerStyles.title} activeClassName={headerStyles.activeNavItem} to="/"> 
@@ -54,8 +54,9 @@ const Header = () => {
   
   </Nav.Link>
   <Nav.Item as="li">
-    <NavDropdown title="About"  id="collasible-nav-dropdown">
-    <Link className={headerStyles.navItem} activeClassName={headerStyles.activeNavItem} to="/"></Link>
+  
+    <NavDropdown   title="About"  id="collasible-nav-dropdown" >
+   
       <NavDropdown.Item>
       <Link className={headerStyles.navItem} activeClassName={headerStyles.activeNavItem} to="/pricing">Pricing</Link>
       </NavDropdown.Item>

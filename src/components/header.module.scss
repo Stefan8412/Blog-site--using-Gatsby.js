@@ -2,6 +2,7 @@
 
 .header{
     padding: 0;
+  
    
     }
    
@@ -10,7 +11,7 @@
     font-size: 26px;
     font-weight: 500;
     text-decoration: none !important;
-    color:  #B6BBBF;
+   
     
 }
 .title:hover{
@@ -19,7 +20,8 @@
 .navItem {
     
     text-decoration: none !important; 
-    color:  #B6BBBF;
+    color: #607DA0;
+
     
     
 }
@@ -29,6 +31,10 @@
 .active-nav-item{
     color:$text-color;
 }
+
+.custom { 
+    background-color:#00356B;
+} 
 
   
     
