@@ -3,7 +3,8 @@ import { graphql, useStaticQuery } from "gatsby"
 import footerStyles from './footer.module.scss'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faFacebook,faTwitter,faTelegram } from "@fortawesome/free-brands-svg-icons"
-
+import { library, config } from '@fortawesome/fontawesome-svg-core'
+config.autoAddCss = false
 
 
 
