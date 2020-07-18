@@ -1,5 +1,6 @@
 .site-footer{
-    background-color: white;
+    background: #F0F8FF;
+   
     margin-top: 20px;
     padding: 10px;
     text-align: center;
@@ -9,9 +10,7 @@
     
     ul.social-links-list {
        
-        li{
-            margin-right: 25px;
-            display: inline-block!important;
+      
             
             
             a{
@@ -30,6 +29,9 @@
     }
 
 }
+li{
+    margin-right: 25px;
+    display: inline;
 }
 ul {
    
@@ -37,7 +39,4 @@ ul {
     
    
 }
-li{
-    margin-right: 25px;
-    display: inline-block;
-}
+
