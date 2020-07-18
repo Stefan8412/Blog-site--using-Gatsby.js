@@ -1,8 +1,10 @@
 @import './layout.module';
 
 .header{
-    padding: 1rem 0 3rem;
+    padding: 0;
+   
     }
+   
 
 .title{
     font-size: 26px;
@@ -15,6 +17,7 @@
     color:#CCCECF; 
 }
 .navItem {
+    
     text-decoration: none !important; 
     color:  #B6BBBF;
     

@@ -76,10 +76,7 @@ const Header = () => {
     <Link className={headerStyles.navItem} activeClassName={headerStyles.activeNavItem} to="/download">Download</Link>
   </Nav.Link>
      </Nav>
-     <Form inline>
-      <FormControl type="text" placeholder="Search" className="mr-sm-2" />
-      <Button variant="outline-secondary">Search</Button>
-    </Form>
+     
    
     </Navbar.Collapse>
     </Navbar>

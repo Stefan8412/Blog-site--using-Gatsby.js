@@ -2,7 +2,8 @@ import React from "react"
 import { graphql, useStaticQuery } from "gatsby"
 import footerStyles from './footer.module.scss'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faFacebookF,faTwitter,faTelegram } from "@fortawesome/free-brands-svg-icons"
+import { faFacebook,faTwitter,faTelegram } from "@fortawesome/free-brands-svg-icons"
+
 
 
 
@@ -27,7 +28,7 @@ const Footer = () =>{
     target="_blank" 
     rel="noopener noreferrer" 
     className="facebook">
-        <FontAwesomeIcon icon={faFacebookF } />
+        <FontAwesomeIcon icon={faFacebook  } size="2x" />
         </a>
         </li>
         <li><a 
@@ -35,7 +36,7 @@ const Footer = () =>{
     target="_blank" 
     rel="noopener noreferrer" 
     className="twitter">
-        <FontAwesomeIcon icon={faTwitter } />
+        <FontAwesomeIcon icon={faTwitter } size="2x" />
         </a>
         </li>
         <li><a 
@@ -43,7 +44,7 @@ const Footer = () =>{
     target="_blank" 
     rel="noopener noreferrer" 
     className="telegram">
-        <FontAwesomeIcon icon={faTelegram } />
+        <FontAwesomeIcon icon={faTelegram } size="2x" />
         </a>
         </li>
     </ul>
