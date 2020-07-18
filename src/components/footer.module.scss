@@ -1,3 +1,39 @@
-.footer {
-    margin-top: 3rem;
+.site-footer{
+    background-color: white;
+    margin-top: 20px;
+    padding: 10px;
+    text-align: center;
+
+.footer-social-links {
+    text-align: center;
+    
+    ul.social-links-list {
+       
+        li{
+            margin-right: 25px;
+            display:inline-block;
+            
+            
+            a{
+                color: darkgray;
+                &.instagram:hover{
+                    color:#e95950;
+                    }
+                    &.facebook:hover{
+                        color:rgb(66,103,178);
+                    }
+                    &.twitter:hover{
+                        color:rgb(56,161,243);
+                    }
+            }
+        }
+    }
+
+}
+}
+ul {
+   
+    list-style-type: none;
+    
+   
 }
