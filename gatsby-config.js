@@ -1,7 +1,8 @@
 module.exports = {
   siteMetadata: {
     title: `Unimus`,
-    description: `Kick off your next, great Gatsby project with this default starter. This barebones starter ships with the main Gatsby configuration files you might need.`,
+    description: `Unimus makes Network Automation and Configuration Management easy.We aim to make automation, disaster recovery, change management
+    and configuration auditing painless and affordable for a network of any size.`,
     author: `www.hancar.sk`,
   },
   plugins: [
