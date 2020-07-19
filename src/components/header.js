@@ -55,7 +55,7 @@ const Header = () => {
   </Nav.Link>
   <Nav.Item as="li">
   
-    <NavDropdown   title="About"  id="collasible-nav-dropdown" >
+    <NavDropdown   title="About "  id="collasible-nav-dropdown" >
    
       <NavDropdown.Item>
       <Link className={headerStyles.navItem} activeClassName={headerStyles.activeNavItem} to="/pricing">Pricing</Link>
