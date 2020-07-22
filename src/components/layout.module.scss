@@ -11,8 +11,6 @@ body {
 
 .container {
     margin: 0 auto;
-    max-width: 950px;
-    
     display: flex;
     flex-direction: column;
     min-height: 100vh;
@@ -21,4 +19,5 @@ body {
 .content {
 flex-grow: 1;
 }
+
 
